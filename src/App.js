@@ -34,9 +34,17 @@ class App extends Component {
             className={css`
               flex: 3;
               display: flex;
+              flex-direction: column;
             `}
           >
-            <div className="glass">Card 3</div>
+            <h3
+              className={css`
+                color: #fff;
+              `}
+            >
+              Card 3
+            </h3>
+            <div className="glass">Content 3</div>
           </div>
           <div
             className={css`
