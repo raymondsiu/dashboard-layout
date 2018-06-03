@@ -14,10 +14,10 @@
   position: relative;
   /* background-color: rgba(0, 0, 0, 0.3); */
   background: linear-gradient(
-    to bottom left,
+    -120deg,
     rgba(20, 20, 20, 0.6),
-    rgba(60, 60, 60, 0.6),
-    rgba(10, 10, 10, 0.6),
+    rgba(80, 80, 80, 0.6),
+    rgba(20, 20, 20, 0.6),
     rgba(0, 0, 0, 0.6)
   );
   flex: 1;

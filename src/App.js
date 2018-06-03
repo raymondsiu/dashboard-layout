@@ -32,7 +32,7 @@ class App extends Component {
           </div>
           <div
             className={css`
-              flex: 1;
+              flex: 3;
               display: flex;
             `}
           >
