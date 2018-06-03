@@ -1,0 +1,25 @@
+.App {
+  text-align: center;
+  height: 100vh;
+  display: flex;
+  flex: 1;
+  flex-direction: column;
+  justify-content: center;
+  background: url('./logo.svg') no-repeat center;
+  background-color: #333333;
+}
+
+.glass {
+  position: relative;
+  background-color: rgba(255, 255, 255, 0.4);
+  flex: 1;
+  margin: 1em;
+  color: #ffffff;
+  padding: 1em;
+  border-radius: 3px;
+  border-right: 1px solid rgba(0, 0, 0, 0.8);
+  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);
+  -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);
+}
