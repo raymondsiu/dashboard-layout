@@ -7,18 +7,27 @@
   justify-content: center;
   background: url('./logo.svg') no-repeat center;
   background-color: #333333;
+  /* background: linear-gradient(to bottom right, #484848, #222222); */
 }
 
 .glass {
   position: relative;
-  background-color: rgba(255, 255, 255, 0.4);
+  /* background-color: rgba(0, 0, 0, 0.3); */
+  background: linear-gradient(
+    to bottom left,
+    rgba(20, 20, 20, 0.6),
+    rgba(60, 60, 60, 0.6),
+    rgba(10, 10, 10, 0.6),
+    rgba(0, 0, 0, 0.6)
+  );
   flex: 1;
-  margin: 1em;
+  margin: 0.5em 1em;
   color: #ffffff;
   padding: 1em;
-  border-radius: 3px;
-  border-right: 1px solid rgba(0, 0, 0, 0.8);
-  border-bottom: 1px solid rgba(0, 0, 0, 0.8);
+  border-radius: 5px;
+  border-top: 1px solid rgba(255, 255, 255, 0.2);
+  /* border-right: 1px solid rgba(0, 0, 0, 0.8); */
+  /* border-bottom: 1px solid rgba(0, 0, 0, 0.8); */
   -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);
   -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);
   box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.8);

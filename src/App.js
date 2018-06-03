@@ -20,40 +20,31 @@ class App extends Component {
               display: flex;
             `}
           >
-            <div
-              className={css`
-                margin: 1em;
-                padding: 1em;
-                flex: 1;
-                background-color: rgba(255, 255, 255, 0.5);
-              `}
-            >
-              Card 1
-            </div>
+            <div className="glass">Card 1</div>
+          </div>
+          <div
+            className={css`
+              flex: 2;
+              display: flex;
+            `}
+          >
+            <div className="glass">Card 2</div>
           </div>
           <div
             className={css`
               flex: 1;
-              background-color: #00aa00;
+              display: flex;
             `}
           >
-            Block 2
+            <div className="glass">Card 3</div>
           </div>
           <div
             className={css`
-              flex: 1;
-              background-color: #aa0000;
+              flex: 4;
+              display: flex;
             `}
           >
-            Block 3
-          </div>
-          <div
-            className={css`
-              flex: 1;
-              background-color: #ffff00;
-            `}
-          >
-            Block 4
+            <div className="glass">Card 4</div>
           </div>
         </div>
         <div
@@ -67,18 +58,26 @@ class App extends Component {
           <div
             className={css`
               flex: 1;
-              background-color: #aa3355;
+              display: flex;
             `}
           >
-            Block 5
+            <div className="glass">Card 5</div>
           </div>
           <div
             className={css`
               flex: 2;
               display: flex;
+              flex-direction: column;
             `}
           >
-            <div className="glass">Card 6</div>
+            <h3
+              className={css`
+                color: #fff;
+              `}
+            >
+              Card 6
+            </h3>
+            <div className="glass">Content 6</div>
           </div>
           <div
             className={css`
@@ -91,10 +90,10 @@ class App extends Component {
           <div
             className={css`
               flex: 1;
-              background-color: #ffffff;
+              display: flex;
             `}
           >
-            Block 8
+            <div className="glass">Card 8</div>
           </div>
         </div>
       </div>
